@@ -12,7 +12,7 @@ class DatabaseHandler extends AbstractProcessingHandler
      */
     protected function write(array $record): void
     {
-        LogMessage::create([
+        LogMessage::forceCreate([
             'level' => $record['level'],
             'level_name' => $record['level_name'],
             'message' => $record['message'],
