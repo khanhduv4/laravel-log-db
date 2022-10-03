@@ -1,17 +1,17 @@
 {
-    "name": "yoeriboven/laravel-log-db",
+    "name": "khanhduv4/laravel-log-db",
     "description": "A database driver for logging with Laravel",
     "keywords": [
-        "yoeriboven",
+        "khanhduv4",
         "laravel",
         "laravel-log-db"
     ],
-    "homepage": "https://github.com/yoeriboven/laravel-log-db",
+    "homepage": "https://github.com/khanhduv4/laravel-log-db",
     "license": "MIT",
     "authors": [
         {
             "name": "Yoeri Boven",
-            "email": "yoeriboven@msn.com",
+            "email": "khanhduv4@msn.com",
             "role": "Developer"
         }
     ],
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Yoeriboven\\LaravelLogDb\\": "src"
+            "khanhduv4\\LaravelLogDb\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Yoeriboven\\LaravelLogDb\\Tests\\": "tests"
+            "khanhduv4\\LaravelLogDb\\Tests\\": "tests"
         }
     },
     "config": {
@@ -45,7 +45,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Yoeriboven\\LaravelLogDb\\DatabaseLoggerServiceProvider"
+                "khanhduv4\\LaravelLogDb\\DatabaseLoggerServiceProvider"
             ]
         }
     },
